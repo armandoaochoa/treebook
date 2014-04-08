@@ -8,7 +8,22 @@
 </head>
 <body>
 
+	<!--bootstrap navbar -->
+	<div class="navbar navbar-inverse">
+		<div>
+			<div class="container">
+				<a href="#" class="brand">Treebook </a>
+				<ul class="nav">
+					<li><%= link_to "All Statuses", statuses_path %></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Twitter bootstrap center fixed layout -->
+	<div class="container">
 <%= yield %>
+	</div>
 
 </body>
 </html>
